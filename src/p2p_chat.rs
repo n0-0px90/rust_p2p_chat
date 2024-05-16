@@ -42,7 +42,6 @@ fn handle_client(stream: TcpStream){
 //Entry point to prog
 fn main() {
     //binding server at :443, implement client outreach to port.
-    //Pack client binary before deployment
     let listener = TcpListener::bind("127.0.0.1:443").expect("Failed to bind to 127.0.0.1:443");
     println!("Listening on 127.0.0.1:443" );
     //Iterates through incoming streams from client
