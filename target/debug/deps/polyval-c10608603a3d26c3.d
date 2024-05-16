@@ -1,0 +1,10 @@
+/home/WassupG2Dank/Projects/Rust/p2p_chat/target/debug/deps/libpolyval-c10608603a3d26c3.rmeta: /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/lib.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/soft64.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/mulx.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/autodetect.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/clmul.rs
+
+/home/WassupG2Dank/Projects/Rust/p2p_chat/target/debug/deps/polyval-c10608603a3d26c3.d: /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/lib.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/soft64.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/mulx.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/autodetect.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/clmul.rs
+
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/lib.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/soft64.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/mulx.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/autodetect.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/polyval-0.6.2/src/backend/clmul.rs:

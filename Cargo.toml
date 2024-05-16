@@ -1,0 +1,12 @@
+[package]
+name = "p2p_chat"
+version = "0.1.0"
+edition = "2021"
+[[bin]]
+name = "p2p_chat"
+path = "src/p2p_chat.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aes-gcm-siv = "0.11.1"
+rand = "0.8.5"

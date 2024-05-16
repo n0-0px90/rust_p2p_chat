@@ -1,0 +1,11 @@
+/home/WassupG2Dank/Projects/Rust/p2p_chat/target/release/deps/libinout-5fe42a208474414b.rmeta: /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/lib.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/errors.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout_buf.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/reserved.rs
+
+/home/WassupG2Dank/Projects/Rust/p2p_chat/target/release/deps/libinout-5fe42a208474414b.rlib: /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/lib.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/errors.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout_buf.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/reserved.rs
+
+/home/WassupG2Dank/Projects/Rust/p2p_chat/target/release/deps/inout-5fe42a208474414b.d: /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/lib.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/errors.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout_buf.rs /home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/reserved.rs
+
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/lib.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/errors.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/inout_buf.rs:
+/home/WassupG2Dank/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/reserved.rs:
