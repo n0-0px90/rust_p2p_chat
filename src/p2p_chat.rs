@@ -9,14 +9,13 @@ fn write_stream(mut stream: TcpStream){
         let _ = std::io::stdout().flush();
         std::io::stdin().read_line(&mut host_input).expect("Failed to read line.");
         let message = host_input.as_bytes();
-        //writes message to server
         stream.write(message).expect("failed to write message.");
     }
 }
 fn read_stream (mut stream: TcpStream){
     loop {
         let mut _net_buffer = [0u8; 1024];
-        stream.read(&mut _net_buffer).expect("HOLY SHIT WHAT THE FUCK HAPPEND");
+        stream.read(&mut _net_buffer).expect("Failed to read line.");
         let incoming_message = String::from_utf8_lossy(&_net_buffer[..]);
         println!("\n");
         print!("Client> {}", incoming_message);
@@ -25,7 +24,7 @@ fn read_stream (mut stream: TcpStream){
 
 fn handle_client(stream: TcpStream){
     let write_clone: TcpStream = stream.try_clone().expect("Failed to clone to write");
-    let read_clone: TcpStream = stream.try_clone().expect("this broke");
+    let read_clone: TcpStream = stream.try_clone().expect("Failed to clone to read");
     std::thread::spawn(|| read_stream(read_clone));
     std::thread::spawn(|| write_stream(write_clone));
 }
