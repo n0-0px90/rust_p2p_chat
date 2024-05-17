@@ -12,6 +12,7 @@ fn write_stream(mut stream: TcpStream){
         stream.write(message).expect("failed to write message.");
     }
 }
+
 fn read_stream (mut stream: TcpStream){
     loop {
         let mut _net_buffer = [0u8; 1024];
@@ -28,16 +29,7 @@ fn handle_client(stream: TcpStream){
     std::thread::spawn(|| read_stream(read_clone));
     std::thread::spawn(|| write_stream(write_clone));
 }
-/** NOTES
-* implement aes_gcm_siv streams, for decode
-* kasm
-* store output to then provide further enumeration
-* banditctf //over the wire
-* ncc
-* code wars
-* sector 7: assembly dev
-* Implement a way to manage session keys
-*/
+
 //Entry point to prog
 fn main() {
     //binding server at :443, implement client outreach to port.
