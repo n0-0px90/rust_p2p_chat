@@ -1,4 +1,4 @@
-use std::io::{Read,Write};
+use std::io::{Read,Write,stdin, stdout};
 use std::net::{TcpStream,TcpListener};
 
 fn write_stream(mut stream: TcpStream){
@@ -6,8 +6,8 @@ fn write_stream(mut stream: TcpStream){
         // Declares new string to write to, reads user input, stores it as bytes in array
         let mut host_input = String::new();
         print!("Server> ");
-        let _ = std::io::stdout().flush();
-        std::io::stdin().read_line(&mut host_input).expect("Failed to read line.");
+        let _ = stdout().flush();
+        stdin().read_line(&mut host_input).expect("Failed to read line.");
         let message = host_input.as_bytes();
         stream.write(message).expect("failed to write message.");
     }
@@ -33,8 +33,9 @@ fn handle_client(stream: TcpStream){
 //Entry point to prog
 fn main() {
     //binding server at :443, implement client outreach to port.
-    let listener = TcpListener::bind("127.0.0.1:443").expect("Failed to bind to 127.0.0.1:443");
-    println!("Listening on 127.0.0.1:443" );
+    let listener = TcpListener::bind("0.0.0.0:443").expect("Failed to bind");
+    let listening = listener.local_addr().unwrap();
+    println!("Listening on {}", listening );
     //Iterates through incoming streams from client
     for stream in listener.incoming(){
         match stream{
