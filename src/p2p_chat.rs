@@ -32,8 +32,8 @@ fn handle_client(stream: TcpStream){
 //Entry point to prog
 fn main() {
     //binding server at :443, implement client outreach to port.
-    let listener = TcpListener::bind("127.0.0.1:443").expect("Failed to bind to 127.0.0.1:443");
-    println!("Listening on 127.0.0.1:443" );
+    let listener = TcpListener::bind("127.0.0.1:443").expect("[-] Failed to bind.");
+    println!("[+] Listening on {:?}", listener.local_addr().unwrap());
     //Iterates through incoming streams from client
     for stream in listener.incoming(){
         match stream{
@@ -41,7 +41,7 @@ fn main() {
                 std::thread::spawn(|| handle_client(stream));
             }
             Err(e) => {
-                eprintln!("Failed to establish connection: {}", e)
+                eprintln!("[-] Failed to establish connection: {:?}", e)
             }
         }
     }
